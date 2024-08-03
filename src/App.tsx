@@ -1,10 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Amplify } from 'aws-amplify';
-import outputs from '../amplify_outputs.json';
-
-Amplify.configure(outputs);
 
 function App() {
   return (
